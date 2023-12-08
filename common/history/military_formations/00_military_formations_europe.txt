@@ -430,7 +430,7 @@
 	# 			count = 1
 	# 		}
 	# 	}
-	# }
+	}
 
 	c:FRA = {
 		create_military_formation = {
