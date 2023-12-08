@@ -892,7 +892,7 @@ TRS = {
 	
 	country_type = recognized
 
-	tier = principality
+	tier = grand_principality #bumped up a tier
 	
 	cultures = { hungarian romanian }
 	capital = STATE_SOUTHERN_TRANSYLVANIA
@@ -4109,6 +4109,7 @@ TIS = {
 }
 
 #begin modded definitions!
+#italian
 
 MIL = {
 	color = { 146 108 146 } #using beautiful colour from eu4 milan
@@ -4163,6 +4164,8 @@ PGA = { #perugia
 	
 	cultures = { south_italian }
 	capital = STATE_UMBRIA
+
+	is_named_from_capital = yes #? does this do what i think it does
 }
 
 SNI = { #(la) serenissima
@@ -4174,4 +4177,39 @@ SNI = { #(la) serenissima
 	
 	cultures = { north_italian }
 	capital = STATE_VENETIA
+}
+
+DAL = { #dalmatia
+	color = { 71 172 252 }
+
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { north_italian slovene croat }
+	capital = STATE_DALMATIA
+}
+
+#central europe
+
+STY = { #styria
+	color = { 33 55 35 } 
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_german }
+	capital = STATE_STYRIA
+}
+
+DNB = { #danubia?
+	color = { 136 108 73 } 
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { czech slovak }
+	capital = STATE_WEST_SLOVAKIA
 }

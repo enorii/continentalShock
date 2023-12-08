@@ -1,0 +1,8 @@
+POPULATION = {
+	c:STY = {
+		
+		effect_starting_pop_wealth_high = yes #got lions share of mineral resources from austria
+		effect_starting_pop_literacy_high = yes
+		
+	}
+}

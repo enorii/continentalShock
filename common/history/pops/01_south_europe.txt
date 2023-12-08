@@ -540,7 +540,7 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:TUR = {
+		region_state:SER = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
@@ -601,7 +601,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:AUS = {
+		region_state:DAL = {
 			create_pop = {
 				culture = slovene
 				size = 464400
@@ -613,7 +613,7 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:AUS = {
+		region_state:DAL = {
 			create_pop = {
 				culture = croat
 				size = 297796
@@ -629,7 +629,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:DAL = { #TODO, split with danubia maybe? or styria
 			create_pop = {
 				culture = croat
 				size = 563592
@@ -654,7 +654,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:AUS = {
+		region_state:SER = {
 			create_pop = {
 				culture = croat
 				size = 282048
@@ -674,18 +674,18 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:AUS = {
+		region_state:DAL = {
 			create_pop = {
 				culture = north_italian
-				size = 197800
+				size = 190000
 			}
 			create_pop = {
 				culture = hungarian
-				size = 4000
+				size = 3700
 			}
 			create_pop = {
 				culture = slovene
-				size = 344504
+				size = 340504
 			}
 			create_pop = {
 				culture = south_german
@@ -694,6 +694,28 @@
 			create_pop = {
 				culture = croat
 				size = 124000
+			}
+		}
+		region_state:STY = {
+			create_pop = {
+				culture = north_italian
+				size = 7800
+			}
+			create_pop = {
+				culture = hungarian
+				size = 330
+			}
+			create_pop = {
+				culture = slovene
+				size = 44504
+			}
+			create_pop = {
+				culture = south_german
+				size = 49792
+			}
+			create_pop = {
+				culture = croat
+				size = 54000
 			}
 		}
 	}
@@ -723,7 +745,7 @@
 			}			
 		}
 		# Cattaro Region, downscaled version of 1880 census, with inflated Italian numbers, and decreased German ones
-		region_state:AUS = {
+		region_state:DAL = {
 			create_pop = {
 				culture = serb
 				size = 15662

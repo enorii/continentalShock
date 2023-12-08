@@ -1,0 +1,7 @@
+COUNTRIES = {
+	c:DNB = {
+		effect_starting_technology_tier_3_tech = yes #or maybe tech4? will see
+		
+		effect_starting_politics_reactionary = yes
+	}
+}
