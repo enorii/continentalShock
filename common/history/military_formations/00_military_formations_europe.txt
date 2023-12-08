@@ -194,11 +194,11 @@
 			hq_region = sr:region_south_germany
 			name = I_Korpskommando
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BOHEMIA
-				count = 30
-			}
+			# combat_unit = {
+			# 	type = unit_type:combat_unit_type_line_infantry
+			# 	state_region = s:STATE_BOHEMIA
+			# 	count = 30
+			# }
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -206,17 +206,17 @@
 				count = 20
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_MORAVIA
-				count = 10
-			}
+			# combat_unit = {
+			# 	type = unit_type:combat_unit_type_lancers
+			# 	state_region = s:STATE_MORAVIA
+			# 	count = 10
+			# }
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_STYRIA
-				count = 10
-			}
+			# combat_unit = {
+			# 	type = unit_type:combat_unit_type_mobile_artillery
+			# 	state_region = s:STATE_STYRIA
+			# 	count = 10
+			# }
 			save_scope_as = i_korps
 		}
 
@@ -239,60 +239,60 @@
 			transfer_to_formation = scope:i_korps
 		}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_danubia
-			name = II_Korpskommando
+		# create_military_formation = {
+		# 	type = army
+		# 	hq_region = sr:region_danubia
+		# 	name = II_Korpskommando
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TRANSDANUBIA
-				count = 20
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_TRANSDANUBIA
+		# 		count = 20
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CENTRAL_HUNGARY
-				count = 15
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_CENTRAL_HUNGARY
+		# 		count = 15
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BEKES
-				count = 10
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_BEKES
+		# 		count = 10
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_SOUTHERN_TRANSYLVANIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_NORTHERN_TRANSYLVANIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_lancers
+		# 		state_region = s:STATE_NORTHERN_TRANSYLVANIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_WEST_SLOVAKIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_lancers
+		# 		state_region = s:STATE_WEST_SLOVAKIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_EAST_SLOVAKIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_mobile_artillery
+		# 		state_region = s:STATE_EAST_SLOVAKIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_DELVIDEK
-				count = 5
-			}
-			save_scope_as = ii_korps
-		}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_mobile_artillery
+		# 		state_region = s:STATE_DELVIDEK
+		# 		count = 5
+		# 	}
+		# 	save_scope_as = ii_korps
+		# }
 
 		create_character = { # AUS, General
 			is_general = yes
@@ -313,33 +313,33 @@
 		}
 
 		scope:karl_gen = {
-			transfer_to_formation = scope:ii_korps
+			transfer_to_formation = scope:i_korps #from ii_korps
 		}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_italy
-			name = III_Korpskommando
+		# create_military_formation = {
+		# 	type = army
+		# 	hq_region = sr:region_italy
+		# 	name = III_Korpskommando
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LOMBARDY
-				count = 15
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_LOMBARDY
+		# 		count = 15
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_VENETIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_lancers
+		# 		state_region = s:STATE_VENETIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_VENETIA
-				count = 5
-			}
-			save_scope_as = iii_korps
-		}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_mobile_artillery
+		# 		state_region = s:STATE_VENETIA
+		# 		count = 5
+		# 	}
+		# 	save_scope_as = iii_korps
+		# }
 
 		create_character = { # General
 			is_general = yes
@@ -357,39 +357,39 @@
 		}
 
 		scope:heinr_gen = {
-			transfer_to_formation = scope:iii_korps
+			transfer_to_formation = scope:i_korps #from iii_korps
 		}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_balkans
-			name = IV_Korpskommando
+		# create_military_formation = {
+		# 	type = army
+		# 	hq_region = sr:region_balkans
+		# 	name = IV_Korpskommando
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CROATIA
-				count = 10
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_CROATIA
+		# 		count = 10
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_DALMATIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_line_infantry
+		# 		state_region = s:STATE_DALMATIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SLAVONIA
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_lancers
+		# 		state_region = s:STATE_SLAVONIA
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_SLOVENIA
-				count = 5
-			}
-			save_scope_as = iiii_korps
-		}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_mobile_artillery
+		# 		state_region = s:STATE_SLOVENIA
+		# 		count = 5
+		# 	}
+		# 	save_scope_as = iiii_korps
+		# }
 
 		create_character = { # AUS, General
 			is_general = yes
@@ -410,27 +410,27 @@
 		}
 
 		scope:laval_gen = {
-			transfer_to_formation = scope:iiii_korps
+			transfer_to_formation = scope:i_korps #from iiii_korps
 		}
 
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_italy
-			name = K_K_Kriegsmarine
+	# 	create_military_formation = {
+	# 		type = fleet
+	# 		hq_region = sr:region_italy
+	# 		name = K_K_Kriegsmarine
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_VENETIA
-				count = 4
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_VENETIA
+	# 			count = 4
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ISTRIA
-				count = 1
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_ISTRIA
+	# 			count = 1
+	# 		}
+	# 	}
+	# }
 
 	c:FRA = {
 		create_military_formation = {
