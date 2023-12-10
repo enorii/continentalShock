@@ -6234,7 +6234,12 @@ STATES = {
 	s:STATE_LITHUANIA = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { xF2CB3D x41E061 x0161A0 xCD7291 x4177AF x00E0A0 x577C69 xA916E3 x4678E5 x629C46 x95171C x232B98 xE0B943 x6175AD x0B6577 x0980C8 xA8FF51 x406DC9 xC0A0A0 xCC4C28 x7A5D64 xAF73F2 x21F318 x8060A0 x80D858 xBFE867 }
+			owned_provinces = { xF2CB3D xCD7291 x4177AF x629C46 x95171C x232B98 xE0B943 x6175AD x0B6577 x0980C8 xA8FF51 x406DC9 xC0A0A0 xCC4C28 x7A5D64 x21F318 x80D858 xBFE867 }
+			state_type = unincorporated
+		}
+		create_state = { #only real reason i am doing this is to make the borders look a bit prettier/interesting
+			country = c:POL
+			owned_provinces = { x8060A0 xAF73F2 x577C69 x4678E5 xA916E3 x00E0A0 x0161A0 x41E061 }
 			state_type = unincorporated
 		}
 		
@@ -6763,7 +6768,7 @@ STATES = {
 	s:STATE_WEST_GALICIA = {
 		create_state = {
 			country = c:KRA
-			owned_provinces = { x906060 x11E061 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x9061E0 }
+			owned_provinces = { x906060 x11E061 x1161E0 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x9061E0 x90E060 }
 		}
 		
 		add_homeland = cu:polish
@@ -6935,7 +6940,11 @@ STATES = {
 	s:STATE_SLOVENIA = {
 		create_state = {
 			country = c:DAL
-			owned_provinces = { x31E041 xB0E040 x792B8A x44F127 }
+			owned_provinces = { x31E041 xB0E040 x792B8A }
+		}
+		create_state = {
+			country = c:STY
+			owned_provinces = { x44F127 }
 		}
 		
 		add_homeland = cu:south_german
@@ -7001,11 +7010,11 @@ STATES = {
 	s:STATE_EAST_PRUSSIA = {
 		create_state = {
 			country = c:PRU
-			owned_provinces = { x975566 x4121A0 x2399A2 x1E73B9 xBF9F20 x9FD037 x47C900 xC04521 x7D6DC3 xEEF586 xAEA6D6 x5428E6 xABC4AE }
+			owned_provinces = { x975566 x4121A0 x2399A2 x1E73B9 xBF9F20 x9FD037 x47C900 xC04521 x7D6DC3 xEEF586 x5428E6 xABC4AE }
 		}
 		create_state = {
 			country = c:POL
-			owned_provinces = { xC020A0 x981EBE x40A0A0 x72FDF3 } #uno reverse on that polish corridor lole
+			owned_provinces = { xC020A0 x981EBE x40A0A0 x72FDF3 xAEA6D6 } #uno reverse on that polish corridor lole
 		}
 		
 		add_homeland = cu:north_german
@@ -7041,14 +7050,23 @@ STATES = {
 		
 		add_homeland = cu:north_german
 	}
-	s:STATE_SILESIA = {
+	s:STATE_SILESIA = { #wanted to leave some of this for prussia but... provinces didn't split along the river :( (and i do not currently have the skill to adjust that)
 		create_state = {
+			country = c:BOH
+			owned_provinces = { xC108EA x732DC0 x6E617F x272E48 xC00121 xCE74AB x94D624 x88194B x90B12B x821F52 }
+		}
+		create_state = {
+			country = c:DNB
+			owned_provinces = { x7B2F62 x5E9091 xAF9F20 }
+		}
+		create_state = { #this is my compromise for now
 			country = c:PRU
-			owned_provinces = { xC108EA x732DC0 x6E617F x1B72C9 x272E48 xC00121 xCE74AB x94D624 xAF9F20 x88194B x90B12B x821F52 x5E9091 x7B2F62 }
+			owned_provinces = { x1B72C9 }
 		}
 		
 		add_homeland = cu:north_german
 		add_homeland = cu:polish
+		add_claim = c:PRU
 	}
 	s:STATE_BRANDENBURG = {
 		create_state = {

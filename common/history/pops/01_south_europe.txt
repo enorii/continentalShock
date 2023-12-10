@@ -611,6 +611,16 @@
 				size = 21388
 			}
 		}
+		region_state:STY = {
+			create_pop = {
+				culture = slovene
+				size = 64400
+			}
+			create_pop = {
+				culture = south_german
+				size = 1388
+			}
+		}
 	}
 	s:STATE_DALMATIA = {
 		region_state:DAL = {

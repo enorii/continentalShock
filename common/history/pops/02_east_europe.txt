@@ -514,6 +514,28 @@
 				size = 8000
 			}
 		}
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 5796
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 9000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2000
+			}
+			create_pop = {
+				culture = north_german
+				size = 1200
+			}
+			create_pop = {
+				culture = russian
+				size = 800
+			}
+		}
 	}
 	s:STATE_MAZOVIA = {
 		region_state:POL = {
@@ -541,7 +563,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:PRU = {
+		region_state:BOH = {
 			create_pop = {
 				culture = north_german
 				size = 1319008
@@ -563,6 +585,54 @@
 				culture = czech
 				religion = catholic
 				size = 60000
+			}
+		}
+		region_state:DNB = { #pretty much just completely guessing what the makeup of chorzow/konigshutte mightve been, couldn't find any census data
+			create_pop = {
+				culture = north_german
+				size = 260000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 4000
+			}
+			create_pop = {
+				culture = polish
+				size = 32000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 8000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 10000
+			}
+		}
+		region_state:PRU = {
+			create_pop = {
+				culture = north_german
+				size = 9008
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 100
+			}
+			create_pop = {
+				culture = polish
+				size = 800
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 1000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 600
 			}
 		}
 	}
