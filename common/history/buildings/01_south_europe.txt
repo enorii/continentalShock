@@ -454,7 +454,7 @@
 		}
 	}
 	s:STATE_SAVOY={
-		region_state:CAR={
+		region_state:FRA={
 			create_building={
 				building="building_wheat_farm"
 				level=2

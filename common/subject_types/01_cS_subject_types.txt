@@ -1,0 +1,122 @@
+# subject_type_client_state = { #very similar to dominion subject type, wanted to call them sister republics but most countries wouldn't actually be republics lol
+# 	allow_change_country_flag = yes
+# 	use_overlord_map_color = yes
+# 	use_overlord_ruler = no
+# 	annex_on_country_formation = no
+# 	can_start_own_diplomatic_plays = yes
+# 	breaks_if_subject_not_protected = yes
+# 	join_overlord_wars = yes
+# 	can_have_subjects = yes
+# 	overlord_must_be_higher_rank = yes
+# 	overlord_must_be_same_country_type = no
+# 	use_for_release_country = no
+# 	gives_prestige_to_overlord = yes
+# 	subservient_to_overlord = yes
+# 	convoy_contribution = 0.75
+	
+# 	diplomatic_action = client_state #TODO add the ability to actually use this as an action
+	
+# 	higher_autonomy_subject_type_alternatives = {
+# 		subject_type_protectorate
+# 	}
+	
+# 	lower_autonomy_subject_type_alternatives = {
+# 		subject_type_puppet
+# 	}	
+	
+# 	same_autonomy_subject_type_alternatives = {
+# 		subject_type_vassal
+# 	}		
+	
+# 	valid_overlord_country_types = {
+# 		recognized
+# 		colonial
+# 	}
+	
+# 	valid_subject_country_types = {
+# 		recognized
+# 		colonial
+# 		unrecognized
+# 	}	
+	
+# 	valid_overlord_ranks = { #basically guarantees french subjects to break away if france loses great power status
+# 		great_power
+# 	}
+	
+# 	valid_subject_ranks = {
+# 		major_power
+# 		minor_power
+# 		insignificant_power
+# 		unrecognized_regional_power
+# 		unrecognized_power
+# 	}
+	
+# 	# Multiplies both subject_value and become_subject_value in AI strategies
+# 	# Higher value means AI is more interested in having this type of subject but less interested in *being* this type of subject
+# 	# Cannot return a value lower than MIN_SUBJECT_TYPE_VALUE
+# 	ai_value = {
+# 		value = 1.20
+# 	}
+# }
+
+# subject_type_kreis = { #localize "autonomous kreis"
+# 	allow_change_country_flag = yes
+# 	use_overlord_map_color = yes
+# 	use_overlord_ruler = no
+# 	annex_on_country_formation = yes
+# 	can_start_own_diplomatic_plays = no
+# 	breaks_if_subject_not_protected = yes
+# 	join_overlord_wars = yes
+# 	can_have_subjects = no
+# 	overlord_must_be_higher_rank = no
+# 	overlord_must_be_same_country_type = no
+# 	use_for_release_country = yes
+# 	gives_prestige_to_overlord = yes
+# 	subservient_to_overlord = yes
+# 	convoy_contribution = 0.25
+	
+# 	#as of right now, don't want any more to be established. maybe styria can if they usurp austria?
+# 	#diplomatic_action = puppet
+	
+# 	higher_autonomy_subject_type_alternatives = {
+# 		subject_type_protectorate
+# 	}
+	
+# 	lower_autonomy_subject_type_alternatives = {
+# 		subject_type_puppet
+# 	}	
+	
+# 	same_autonomy_subject_type_alternatives = {
+# 		subject_type_vassal
+# 	}	
+	
+# 	valid_overlord_country_types = {
+# 		recognized
+# 	}
+	
+# 	valid_subject_country_types = {
+# 		recognized
+# 		unrecognized
+# 	}		
+	
+# 	valid_overlord_ranks = {
+# 		great_power
+# 		major_power
+# 		minor_power
+# 		insignificant_power #assuming austria themselves will usually be staying quite weak
+# 	}
+	
+# 	valid_subject_ranks = {
+# 		minor_power
+# 		insignificant_power
+# 		unrecognized_regional_power	
+# 		unrecognized_power
+# 	}
+	
+# 	# Multiplies both subject_value and become_subject_value in AI strategies
+# 	# Higher value means AI is more interested in having this type of subject but less interested in *being* this type of subject
+# 	# Cannot return a value lower than MIN_SUBJECT_TYPE_VALUE
+# 	ai_value = {
+# 		value = 1.75
+# 	}
+# }

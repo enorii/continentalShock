@@ -111,42 +111,42 @@
 			transfer_to_formation = scope:i_armee
 		}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_rhine
-			name = II_ArmeeKorps
+		# create_military_formation = {
+		# 	type = army
+		# 	hq_region = sr:region_rhine
+		# 	name = II_ArmeeKorps
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_RHINELAND
-				count = 10
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_skirmish_infantry
+		# 		state_region = s:STATE_RHINELAND
+		# 		count = 10
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_RUHR
-				count = 10
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_skirmish_infantry
+		# 		state_region = s:STATE_RUHR
+		# 		count = 10
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_NORTH_RHINE
-				count = 5
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_skirmish_infantry
+		# 		state_region = s:STATE_NORTH_RHINE
+		# 		count = 5
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_WESTPHALIA
-				count = 10
-			}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_lancers
+		# 		state_region = s:STATE_WESTPHALIA
+		# 		count = 10
+		# 	}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_NORTH_RHINE
-				count = 5
-			}
-			save_scope_as = ii_korps
-		}
+		# 	combat_unit = {
+		# 		type = unit_type:combat_unit_type_mobile_artillery
+		# 		state_region = s:STATE_NORTH_RHINE
+		# 		count = 5
+		# 	}
+		# 	save_scope_as = ii_korps
+		# }
 
 		create_character = {
 			is_general = yes
@@ -163,7 +163,7 @@
 		}
 		
 		scope:wilhem_gen = {
-			transfer_to_formation = scope:ii_korps
+			transfer_to_formation = scope:i_armee #ii_korps
 		}
 
 		create_military_formation = {
@@ -303,7 +303,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			birth_date = 1777.3.23
-			hq = region_balkans
+			hq = region_south_germany
 			commander_rank = commander_rank_2
 			traits = {
 				experienced_diplomat
@@ -347,7 +347,7 @@
 			last_name = von_Hess
 			historical = yes
 			birth_date = 1788.3.17
-			hq = region_danubia
+			hq = region_south_germany
 			commander_rank = commander_rank_4
 			traits = {
 				meticulous
@@ -400,7 +400,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1777.11.3
-			hq = region_italy
+			hq = region_south_germany
 			commander_rank = commander_rank_2
 			traits = {
 				basic_offensive_planner
@@ -2517,120 +2517,120 @@
 		}
 	}
 
-	c:SIC = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_italy
-			name = Reale_Esercito_di_SM_il_Re_del_Regno_delle_Due_Sicilie
+	# c:SIC = {
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_italy
+	# 		name = Reale_Esercito_di_SM_il_Re_del_Regno_delle_Due_Sicilie
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CAMPANIA
-				count = 4
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 4
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ABRUZZO
-				count = 3
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_ABRUZZO
+	# 			count = 3
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_APULIA
-				count = 2
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_APULIA
+	# 			count = 2
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CALABRIA
-				count = 3
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_CALABRIA
+	# 			count = 3
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SICILY
-				count = 3
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_SICILY
+	# 			count = 3
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_CAMPANIA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SICILY
-				count = 2
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_dragoons
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 2
+	# 		}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_dragoons
+	# 			state_region = s:STATE_SICILY
+	# 			count = 2
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_CAMPANIA
-				count = 1
-			}
-		}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_mobile_artillery
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 1
+	# 		}
+	# 	}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_italy
-			name = Corpo_Svizzeri # Swiss soldiers in Sicilian service.
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_italy
+	# 		name = Corpo_Svizzeri # Swiss soldiers in Sicilian service.
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CAMPANIA
-				count = 4
-			}
-		}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 4
+	# 		}
+	# 	}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_italy
-			name = Guardia_Reale
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_italy
+	# 		name = Guardia_Reale
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CAMPANIA
-				count = 4
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 4
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CAMPANIA
-				count = 2
-			}
-		}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_hussars
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 2
+	# 		}
+	# 	}
 
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_italy
-			name = Armata_di_Mare_di_SM_il_Re_del_Regno_delle_Due_Sicilie
+	# 	create_military_formation = {
+	# 		type = fleet
+	# 		hq_region = sr:region_italy
+	# 		name = Armata_di_Mare_di_SM_il_Re_del_Regno_delle_Due_Sicilie
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_CAMPANIA
-				count = 2
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_man_o_war
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 2
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_CAMPANIA
-				count = 4
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_CAMPANIA
+	# 			count = 4
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SICILY
-				count = 1
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_SICILY
+	# 			count = 1
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_APULIA
-				count = 1
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_APULIA
+	# 			count = 1
+	# 		}
+	# 	}
+	# }
 
 	c:SAR = {
 		create_military_formation = {
@@ -2890,39 +2890,39 @@
 		}
 	}
 
-	c:NET = {
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_rhine
-			name = Koninklijke_Marine
+	# c:NET = {
+	# 	create_military_formation = {
+	# 		type = fleet
+	# 		hq_region = sr:region_rhine
+	# 		name = Koninklijke_Marine
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_HOLLAND
-				count = 8
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_man_o_war
+	# 			state_region = s:STATE_HOLLAND
+	# 			count = 8
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_FRIESLAND
-				count = 1
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_man_o_war
+	# 			state_region = s:STATE_FRIESLAND
+	# 			count = 1
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_HOLLAND
-				count = 20
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_HOLLAND
+	# 			count = 20
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_FRIESLAND
-				count = 5
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_frigate
+	# 			state_region = s:STATE_FRIESLAND
+	# 			count = 5
+	# 		}
+	# 	}
+	# }
 
-	c:BEL = {
+	c:FLA = {
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_rhine

@@ -1,0 +1,7 @@
+COUNTRIES = {
+	c:FLA = {
+		effect_starting_technology_tier_1_tech = yes 
+		
+		effect_starting_politics_reactionary = yes #need to figure out what this actually means lol
+	}
+}

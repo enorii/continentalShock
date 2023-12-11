@@ -111,7 +111,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:CAR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 92032

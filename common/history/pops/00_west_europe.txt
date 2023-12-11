@@ -604,7 +604,7 @@
 		}
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
-		region_state:FRA = {
+		region_state:FLA = {
 			create_pop = {
 				culture = french
 				size = 1608005
@@ -897,7 +897,7 @@
 	}
 	# Zuidholland, Noordholland, Zeeland, and Utrecht
 	s:STATE_HOLLAND = {
-		region_state:NET = {
+		region_state:FLA = {
 			create_pop = {
 				culture = dutch
 				size = 842331
@@ -928,7 +928,7 @@
 	}
 	# Friesland, Overijssel, Groningen, and Drenthe
 	s:STATE_FRIESLAND = { 
-		region_state:NET = {
+		region_state:FLA = {
 			create_pop = {
 				culture = dutch
 				size = 528678
@@ -951,7 +951,7 @@
 	}
 	# Noordbrabant, Gelderland, and Limburg
 	s:STATE_GELRE = {
-		region_state:NET = {
+		region_state:FLA = {
 			create_pop = {
 				culture = dutch
 				size = 192091
@@ -978,35 +978,20 @@
 		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:LUX = {
+		# Hainaut, Liège, Luxembourg, and Namur
+		region_state:FRA = { # 
 			create_pop = {
-				culture = wallonian
-				size = 103992
+				culture = wallonian # 'Walloon & French' in census data.
+				size = 1517468 # 1413476 + 103992
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 71996
+				size = 99843 # 27847 + 71996
 			}
 			create_pop = {
 				culture = north_german
 				size = 572
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 210
-			}
-		}
-		# Hainaut, Liège, Luxembourg, and Namur
-		region_state:BEL = { # 
-			create_pop = {
-				culture = wallonian # 'Walloon & French' in census data.
-				size = 1413476
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 27847
 			}
 			create_pop = {
 				culture = flemish # 'Flemish & Dutch' in census data.
@@ -1023,13 +1008,13 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 205
+				size = 415 # 205 + 210
 			}
 		}
 	}
 	# Antwerp, Brabant, West Flanders, East Flanders, and Limburg
 	s:STATE_FLANDERS = {
-		region_state:BEL = {
+		region_state:FLA = {
 			create_pop = {
 				culture = flemish # 'Flemish & Dutch' in census data.
 				size = 2224197
@@ -1266,11 +1251,11 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:PRU = {
+		region_state:WES = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 771111
+				size = 837096 # 771111 + 50210 + 15775
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1278,31 +1263,9 @@
 			}
 			create_pop = {
 				culture = north_german
-				size = 506715
-			}
-		}
-		region_state:LIP = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 50210
-			}
-			create_pop = {
-				culture = north_german
-				size = 27336
+				size = 542096 # 506715 + 27336 + 8045
 			}
 		}	
-		region_state:SCM = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 15775
-			}
-			create_pop = {
-				culture = north_german
-				size = 8045
-			}
-		}			
 	}
 	s:STATE_ANHALT = {
 		region_state:PRU = {
@@ -1333,7 +1296,7 @@
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:PRU = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1347,8 +1310,6 @@
 				culture = north_german
 				size = 323992
 			}
-		}
-		region_state:BAV = {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1365,7 +1326,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1387,7 +1348,7 @@
 	}
 
 	s:STATE_RUHR = {
-		region_state:PRU = {
+		region_state:WES = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
