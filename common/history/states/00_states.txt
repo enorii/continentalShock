@@ -7090,11 +7090,7 @@ STATES = {
 	s:STATE_WURTTEMBERG = {
 		create_state = {
 			country = c:WUR
-			owned_provinces = { x118060 x100060 xC541D2 x8F0060 xDBB84C }
-		}
-		create_state = {
-			country = c:HOH
-			owned_provinces = { x908060 }
+			owned_provinces = { x118060 x100060 xC541D2 x8F0060 xDBB84C x908060 }
 		}
 		
 		add_homeland = cu:south_german
@@ -7179,26 +7175,14 @@ STATES = {
 		add_homeland = cu:north_german
 	}
 	s:STATE_HESSE = {
-		create_state = {
+		create_state = { #frankfurt
 			country = c:FRM
 			owned_provinces = { x11C0A0 }
 		}	
-		create_state = {
-			country = c:HES
-			owned_provinces = { x1141A0 x8B7C67 x90C020 }
-		}
-		create_state = {
-			country = c:HEK
-			owned_provinces = { xD04121 x2248E2 xC08020 xFF1DBB }
+		create_state = { #from HES HEK NAS WLD
+			country = c:WES
+			owned_provinces = { x1141A0 x8B7C67 x90C020 xD04121 x2248E2 xC08020 xFF1DBB x90C0A0 x1357DB x3E794B }
 		}		
-		create_state = {
-			country = c:NAS
-			owned_provinces = { x90C0A0 x1357DB }
-		}	
-		create_state = {
-			country = c:WLD
-			owned_provinces = { x3E794B }
-		}			
 		
 		add_homeland = cu:north_german
 	}

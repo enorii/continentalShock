@@ -1866,77 +1866,77 @@
 		}
 	}
 
-	c:HEK = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_north_germany
-			name = Kurfrstlich_Hessische_Armee
+	# c:HEK = {
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_north_germany
+	# 		name = Kurfrstlich_Hessische_Armee
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HESSE
-				count = 4
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_HESSE
+	# 			count = 4
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_HESSE
-				count = 1
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_hussars
+	# 			state_region = s:STATE_HESSE
+	# 			count = 1
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_HESSE
-				count = 1
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_cannon_artillery
+	# 			state_region = s:STATE_HESSE
+	# 			count = 1
+	# 		}
+	# 	}
+	# }
 
-	c:HES = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_north_germany
-			name = Groherzoglich_Hessische_Armee
+	# c:HES = {
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_north_germany
+	# 		name = Groherzoglich_Hessische_Armee
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HESSE
-				count = 3
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_HESSE
+	# 			count = 3
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_HESSE
-				count = 1
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_lancers
+	# 			state_region = s:STATE_HESSE
+	# 			count = 1
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_HESSE
-				count = 1
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_cannon_artillery
+	# 			state_region = s:STATE_HESSE
+	# 			count = 1
+	# 		}
+	# 	}
+	# }
 
-	c:NAS = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_north_germany
-			name = Herzoglich_Nassauische_Armee
+	# c:NAS = {
+	# 	create_military_formation = {
+	# 		type = army
+	# 		hq_region = sr:region_north_germany
+	# 		name = Herzoglich_Nassauische_Armee
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HESSE
-				count = 2
-			}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_line_infantry
+	# 			state_region = s:STATE_HESSE
+	# 			count = 2
+	# 		}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_HESSE
-				count = 1
-			}
-		}
-	}
+	# 		combat_unit = {
+	# 			type = unit_type:combat_unit_type_cannon_artillery
+	# 			state_region = s:STATE_HESSE
+	# 			count = 1
+	# 		}
+	# 	}
+	# }
 
 	c:HAN = {
 		create_military_formation = {

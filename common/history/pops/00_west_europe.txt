@@ -1432,26 +1432,15 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 926509
+				size = 966819 #926509 + 40310
 			}
 			create_pop = {
 				culture = south_german
-				size = 604068
+				size = 625092 #604068 + 21024
 			}
 			create_pop = {
 				culture = alemannic
 				size = 189173
-			}
-		}
-		region_state:HOH = {
-			create_pop = {
-				culture = south_german
-				religion = protestant
-				size = 40310
-			}
-			create_pop = {
-				culture = south_german
-				size = 21024
 			}
 		}		
 	}
@@ -1675,62 +1664,21 @@
 				size = 8000
 			}
 		}
-		region_state:HES = {
+		region_state:WES = {
 			create_pop = {
 				culture = north_german
-				size = 583308
+				size = 1303436 #583308 + 500688 + 192004 + 27436
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 140800
+				size = 506011 #140800 + 129200 + 208000 + 28011
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5000
+				size = 10800 #5000 + 3400 + 2400
 			}
-		}
-		region_state:HEK = {
-			create_pop = {
-				culture = north_german
-				size = 500688
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 129200
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 3400
-			}
-		}		
-		region_state:NAS = {
-			create_pop = {
-				culture = north_german
-				size = 192004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 208000
-			}
-		}
-		region_state:WLD = {
-			create_pop = {
-				culture = north_german
-				size = 27436
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 28011
-			}
-		}		
+		}	
 	}
 	s:STATE_MECKLENBURG = {
 		region_state:MEC = {
